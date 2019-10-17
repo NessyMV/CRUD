@@ -1,0 +1,4 @@
+C:\Users\Victoria\Documents\Visual Studio 2010\Projects\crud\crud\bin\crud.dll
+C:\Users\Victoria\Documents\Visual Studio 2010\Projects\crud\crud\bin\crud.pdb
+C:\Users\Victoria\Documents\Visual Studio 2010\Projects\crud\crud\obj\Debug\crud.dll
+C:\Users\Victoria\Documents\Visual Studio 2010\Projects\crud\crud\obj\Debug\crud.pdb

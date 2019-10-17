@@ -1,0 +1,9 @@
+c:\users\victoria\documents\visual studio 2010\Projects\crud1\crud1\bin\Debug\crud1.exe
+c:\users\victoria\documents\visual studio 2010\Projects\crud1\crud1\bin\Debug\crud1.pdb
+c:\users\victoria\documents\visual studio 2010\Projects\crud1\crud1\obj\x86\Debug\crud1.Form1.resources
+c:\users\victoria\documents\visual studio 2010\Projects\crud1\crud1\obj\x86\Debug\crud1.Properties.Resources.resources
+c:\users\victoria\documents\visual studio 2010\Projects\crud1\crud1\obj\x86\Debug\crud1.csproj.GenerateResource.Cache
+c:\users\victoria\documents\visual studio 2010\Projects\crud1\crud1\obj\x86\Debug\crud1.exe
+c:\users\victoria\documents\visual studio 2010\Projects\crud1\crud1\obj\x86\Debug\crud1.pdb
+C:\Users\Victoria\Documents\Visual Studio 2010\Projects\crud1\crud1\obj\x86\Debug\crud1.csprojResolveAssemblyReference.cache
+C:\Users\Victoria\Documents\Visual Studio 2010\Projects\crud1\crud1\bin\Debug\crud1.exe.config

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:50208/fuunciones.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="Create">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="apellidos" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="direccion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="numero" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Read">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReadResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ReadResult" nillable="true" type="q1:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="delete">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="update">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="apellidos" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="direccion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="numero" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="updateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="updateResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
